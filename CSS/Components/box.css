@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 960px) {
+	.box {
+		width: 700px;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 720px) {
+	.box {
+		width: 500px;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 540px) {
+	.box {
+		width: 300px;
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,31 @@
+
+@import url("https://fonts.googleapis.com/css?family=Baskervville|Merriweather:400,700,900&display=swap");
+@import url("Components/container.css");
+@import url("Components/banner.css");
+@import url("Components/button.css");
+@import url("Components/box.css");
+@import url("Components/card.css");
+@import url("Components/img-card.css");
+@import url("Components/banner-small.css");
+
+body {
+	font-family: 'Baskervville', serif;
+	background-color: 240, 240, 240;
+}
+
+h1, h2, h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 50px;
+}
+
+a{
+	text-decoration: none;
+}
+
+p {
+	font-size: 20px;
+}

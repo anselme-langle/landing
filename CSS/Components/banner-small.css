@@ -1,0 +1,8 @@
+.banner-small {
+	background-image: url(../../Images/banner-small.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 100px 0px;
+	margin:  0px -10px;
+}

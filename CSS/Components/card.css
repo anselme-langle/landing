@@ -1,0 +1,21 @@
+.card-white{
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	border-radius: 6px;
+	box-shadow: 0 15px 55px rgba(0, 0, 0,.2);
+	padding: 25px;
+	margin: 40px 15px;
+	display: flex;
+	width: 500px;
+	height: 100px;
+}
+
+@media (max-width: 600px) {
+	.card-white {
+		width: 300px;
+		height: 300px;
+		flex-direction: column;
+	}
+}
